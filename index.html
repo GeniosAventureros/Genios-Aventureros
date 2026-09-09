@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Genio Aventureros</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<!-- Banner Superior -->
+<div class="banner-superior">
+    <img src="header (1).png" alt="Genio Aventureros">
+</div>
+
+<!-- Menú -->
+<header class="header">
+
+    <nav class="menu">
+        <a href="index.html">🏠 Inicio</a>
+        <a href="cuentos.html">📖 Cuentos</a>
+        <a href="actividades.html">✏️ Actividades</a>
+        <a href="logros.html">🏆 Logros</a>
+        <a href="nosotros.html">👦 Nosotros</a>
+        <a href="historia-kiro.html">💙Historia de Kiro</a>
+    </nav>
+
+   <a href="login.html" class="btn-login">
+    Jugar
+</a>
+
+</header>
+
+
+<!-- Portada -->
+<section class="hero">
+
+    <div class="texto">
+
+        <h1>
+            Aprende, juega <br>
+            y descubre con <br>
+            <span>Genios Aventureros</span>
+        </h1>
+
+        <p>
+            Un mundo de conocimiento, diversión y creatividad donde cada reto te hace más inteligente.
+        </p>
+
+<a href="#tarjetas" class="btn-aventura flecha">↓</a>
+
+    </div>
+
+    <div class="imagen">
+
+    <div class="carrusel">
+
+        <button class="anterior">&#10094;</button>
+
+        <div class="contenedor-slider">
+
+            <img src="carrusel.1.png" class="slide activo" alt="">
+            <img src="img/carrusel/carrusel2.jpeg" class="slide" alt="">
+            <img src="img/carrusel/carrusel3.jpeg" class="slide" alt="">
+            <img src="img/carrusel/carrusel4.jpeg" class="slide" alt="">
+
+        </div> 
+
+        <button class="siguiente">&#10095;</button>
+
+    </div>
+
+</div>
+</section> 
+
+<!-- Tarjetas -->
+<section id="tarjetas" class="tarjetas">
+
+    <a href="cuentos.html" class="tarjeta rosa">
+        <h2>📖 Cuentos</h2>
+        <p>Viaja con tu imaginación.</p>
+    </a>
+
+    <a href="actividades.html" class="tarjeta amarilla">
+        <h2>✏️ Actividades</h2>
+        <p>Desarrolla tu mente.</p>
+    </a>
+
+    <a href="logros.html" class="tarjeta verde">
+        <h2>🏆 Logros</h2>
+        <p>Alcanza nuevas metas y celebra tus avances.</p>
+    </a>
+
+</section>
+
+<!-- Beneficios -->
+<section class="beneficios">
+
+    <h2>¿Por qué elegir Genio Aventureros?</h2>
+
+    <div class="contenedor-beneficios">
+
+        <div class="beneficio">
+            🌟
+            <h3>Aprende jugando</h3>
+            <p>Descubre nuevos conocimientos de forma divertida.</p>
+        </div>
+
+        <div class="beneficio">
+            🚀
+            <h3>Explora</h3>
+            <p>Vive aventuras y supera nuevos retos.</p>
+        </div>
+
+        <div class="beneficio">
+            🧠
+            <h3>Desarrolla tus habilidades</h3>
+            <p>Mejora tu creatividad, memoria y pensamiento.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Nosotros -->
+<section class="nosotros">
+
+    <div class="nosotros-texto">
+        <h2>¿Quiénes somos?</h2>
+
+        <p>
+            Genio Aventureros es una plataforma educativa creada para que los niños de primaria aprendan español de una forma divertida mediante cuentos, juegos, actividades y logros.
+        </p>
+
+    </div>
+
+    <div class="nosotros-img">
+        <img src="Niños.png" alt="Niños">
+    </div>
+
+</section>
+
+<!-- contactanos -->
+<section class="contacto">
+
+    <h2>Contáctanos</h2>
+
+    <div id="formulario-contacto">
+
+        <form class="formulario" onsubmit="enviarFormulario(event)">
+
+            <input
+                type="text"
+                placeholder="Nombre completo"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Correo electrónico"
+                required
+            >
+
+            <textarea
+                placeholder="Escribe tu mensaje"
+                required
+            ></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+
+    <div id="mensaje-enviado" class="mensaje-enviado">
+        🎉 ¡Mensaje enviado correctamente! 💙
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <footer class="mi-footer">
+
+    <!-- IMAGEN AMARILLA DEL FOOTER -->
+    <div class="footer-amarillo">
+
+        <img src="footer p (1).png" alt="Footer" class="footer-banner">
+
+        <!-- REDES DENTRO DEL FOOTER AMARILLO -->
+        <div class="redes-footer">
+
+            <a href="https://www.instagram.com/genios.aventureros.26/"
+               target="_blank"
+              rel="noopener noreferrer">
+
+               <img src="instagram_genios.png" alt="Instagram">
+               <span>Instagram</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@genios_aventureros.26"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="tiktok_genios.png" alt="TikTok">
+                <span>TikTok</span>
+
+            </a>
+
+        </div>
+
+        <!-- PARTE NEGRA -->
+    <div class="footer-bottom">
+
+        <p>© 2026 Genio Aventureros. Todos los derechos reservados.</p>
+
+        <ul class="footer-links">
+            <li><a href="index.html"></a></li>
+        </ul>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
